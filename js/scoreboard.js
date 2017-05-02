@@ -1,7 +1,3 @@
-/*
-define([], function() {
-    //var Scoreboard = function() {
-*/
 console.log('Creating a scoreboard...');
 
 // private members
@@ -33,9 +29,3 @@ module.exports = {
     addResult: addResult,
     updateScoreboard: updateScoreboard
 };
-/*
- }
-
-    //};
-});
-*/

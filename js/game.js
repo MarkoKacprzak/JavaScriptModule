@@ -1,6 +1,3 @@
-//define(['./player', './scoreboard'], function(player, scoreboard) {
-//var game = function() {
-// private members
 var player = require('./player.js');
 var scoreboard = require('./scoreboard.js');
 
@@ -75,9 +72,3 @@ exports.printGame = printGame;
 exports.calculateScore = calculateScore;
 exports.setProblemCount = setProblemCount;
 exports.getProblemCount = getProblemCount;
-/*
-    };
-
-    //}();
-});
-*/

@@ -1,16 +1,5 @@
-/*
-define(['./player', './game'], function(player, game) {
-      /* remove IIFE
-(function() {
-  */
 var player = require('./player.js');
 var game = require('./game.js');
-/*
-    console.log('Starting MultiMath with an IIFE'); 
-*/
-/*
-    console.log('Starting with an RequireJS');
-    */
 console.log('Loading with SystemJS');
 
 // add click handler to the start game button
@@ -26,5 +15,3 @@ document.getElementById('calculate').addEventListener('click', function() {
 
 // set the default number of problems
 document.getElementById('problemCount').value = game.getProblemCount();
-//})();
-//});
