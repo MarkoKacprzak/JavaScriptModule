@@ -1,3 +1,8 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
 console.log('Creating a scoreboard...');
 
 // private members
@@ -23,4 +28,5 @@ function updateScoreboard() {
     var scoresElement = document.getElementById('scores');
     scoresElement.innerHTML = output;
 }
-export { addResult, updateScoreboard };
+exports.addResult = addResult;
+exports.updateScoreboard = updateScoreboard;
