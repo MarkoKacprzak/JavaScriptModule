@@ -1,4 +1,5 @@
-var scoreboard = function() {
+define([], function() {
+    //var Scoreboard = function() {
 
     console.log('Creating a scoreboard...');
 
@@ -32,4 +33,5 @@ var scoreboard = function() {
         updateScoreboard: updateScoreboard
     }
 
-}();
+    //};
+});

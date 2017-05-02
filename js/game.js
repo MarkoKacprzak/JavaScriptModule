@@ -1,4 +1,5 @@
-var game = function() {
+define(['./player', './scoreboard'], function(player, scoreboard) {
+    //var game = function() {
 
     // private members
     var factorElement = document.getElementById('factor');
@@ -74,4 +75,5 @@ var game = function() {
         getProblemCount: getProblemCount
     };
 
-}();
+    //}();
+});
