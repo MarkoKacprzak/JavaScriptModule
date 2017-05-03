@@ -4,7 +4,7 @@ define(['./player', './game'], function(player, game) {
 
     console.log('Starting MultiMath with an IIFE'); 
     */
-    console.log('Starting with an RequireJS');
+    console.log('Starting with an RequireJS in WebPack');
 
     // add click handler to the start game button
     document.getElementById('startGame').addEventListener('click', function() {
