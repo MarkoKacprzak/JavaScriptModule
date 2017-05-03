@@ -2,7 +2,7 @@ import assignPlayerName from './player.js';
 import { printGame, calculateScore, getProblemCount } from './game.js';
 //var player = require('./player.js');
 //var game = require('./game.js');
-console.log('Loading with SystemJS');
+console.log('Build with webpack and babel-loader');
 
 // add click handler to the start game button
 document.getElementById('startGame').addEventListener('click', function() {
