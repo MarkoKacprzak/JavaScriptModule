@@ -56,12 +56,14 @@
     <script src="node_modules/systemjs/dist/system.js"></script>
 
     <script>
-        System.config({
+        SystemJS.config({
             meta: {
-                format: 'cjs'
+                'js/*': {
+                    format: 'cjs'
+                }
             }
         });
-        System.import('js/app.js');
+        SystemJS.import('js/app.js');
     </script>
 
     <!--
